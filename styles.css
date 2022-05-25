@@ -19,8 +19,8 @@ body {
 }
 
 .navbar-header-section-up {
-    background-color: #B83B5E;
-    color: #F9ED69;
+    background-color: #590D82;
+    color: #F25D9C;
     top: 0;
     left: 0;
     width: 100%;
@@ -31,14 +31,14 @@ body {
 }
 
 .navbar-header-section-up a {
-    color: #F9ED69;
+    color: #F25D9C;
     text-decoration: none;
     margin-left: 10px;
     margin-right: 10px;
 }
 
 .navbar-header-section-down {
-    background-color: #6A2C70;
+    background-color: #0C056D;
     left: 0;
     width: 100%;
     display: -ms-grid;
@@ -80,14 +80,15 @@ body {
 .navbar-dropdown-button {
     background: none;
     border: none;
-    color: #F08A5D;
+    color: #F25D9C;
     font-size: 16px;
     cursor: pointer;
     padding: 2px 16px;
+    transition: 0.2s;
 }
 
 .navbar-dropdown-button:hover {
-    color: #ec7643;
+    color: #d14680;
 }
 
 
