@@ -27,7 +27,7 @@
 
         <p>eragonfrc</p>
 
-        <img src="images/ekip_fotografi.jpeg" width="400px">
+        <img src="images/ekip_fotografi.jpg" width="100%">
 
     </section>
     

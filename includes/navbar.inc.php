@@ -37,9 +37,7 @@
     <section id="navbar-header-section-down" class="navbar-header-section-down">
 
         <div class="navbar-header-section-down-img">
-            <img id="eragon-main-nav-img" src="images/eragon_mor_logo_transparent.png" alt="">
-            <img id="eragon-inovasyon-nav-img" src="images/eragon_mor_logo_transparent.png" alt="">
-            <img id="eragon-frc-nav-img" src="images/eragon_mor_logo_transparent.png" alt="">
+            <img id="eragon-main-nav-img" src="images/callister_logo.png" alt="">
         </div>
 
         <div class="navbar-header-section-down-nav">
@@ -60,8 +58,8 @@
             <div id="navbar-dropdown" class="navbar-dropdown navbar-content-extra-margin">
                 <button class="navbar-dropdown-button"><?php echo $oneHeader; ?></button>
                 <div class="navbar-dropdown-content">
-                    <a href="eragonfrchakkinda.php"><?php echo $oneOne ?></a>
-                    <a href="eragonfrctakim.php"><?php echo $oneTwo; ?></a>
+                    <a href="hakkimizda.php"><?php echo $oneOne ?></a>
+                    <a href="takim.php"><?php echo $oneTwo; ?></a>
                 </div>
             </div>
 
@@ -84,8 +82,8 @@
                 <button class="navbar-dropdown-button"><?php echo $fourHeader; ?></button>
                 <div class="navbar-dropdown-content">
                     <!-- <a href="inovasyon.php">İnovasyon</a> -->
-                    <a href="inovasyon.php"><?php echo $fourOne; ?></a>
-                    <a href="inovasyon.php"><?php echo $fourTwo; ?></a>
+                    <a href="sponsorluk.php"><?php echo $fourOne; ?></a>
+                    <a href="#"><?php echo $fourTwo; ?></a>
                 </div>
             </div>
 
@@ -118,8 +116,8 @@
 
             <a class="responsive-open-menu-title" href="#"><?php echo $oneHeader; ?></a>
 
-            <a class="responsive-open-menu-title-open" href="eragonfrc.php"><?php echo $oneOne ?></a>
-            <a class="responsive-open-menu-title-open" href="eragonfrchakkinda.php"><?php echo $oneTwo; ?></a>
+            <a class="responsive-open-menu-title-open" href="hakkimizda.php"><?php echo $oneOne ?></a>
+            <a class="responsive-open-menu-title-open" href="takim.php"><?php echo $oneTwo; ?></a>
 
         </div>
 
@@ -135,27 +133,17 @@
 
             <a class="responsive-open-menu-title" href="#"><?php echo $threeHeader; ?></a>
 
-            <a class="responsive-open-menu-title-open" href="frcnedir.php"><?php echo $threeOne; ?></a>
+            <a class="responsive-open-menu-title-open" href="#"><?php echo $threeOne; ?></a>
+            <a class="responsive-open-menu-title-open" href="#"><?php echo $threeTwo; ?></a>
         </div>
 
         <div class="responsive-open-menu-main">
 
-            <a class="responsive-open-menu-title" href="#">İNOVASYON</a>
-            <a class="responsive-open-menu-title-open" href="inovasyon.php">İnovasyon</a>
+            <a class="responsive-open-menu-title" href="#"><?php echo $fourHeader; ?></a>
+            <a class="responsive-open-menu-title-open" href="sponsorluk.php"><?php echo $fourOne; ?></a>
+            <a class="responsive-open-menu-title-open" href="#"><?php echo $fourTwo; ?></a>
 
 
-        </div>
-
-        <div class="responsive-open-menu-main">
-                
-                <a class="responsive-open-menu-title" href="medya.html">MEDYA</a>
-
-        </div>
-
-        <div class="responsive-open-menu-main">
-            
-            <a class="responsive-open-menu-title" href="sponsorluk.php">SPONSORLUK</a>
-            
         </div>
     
     </section>

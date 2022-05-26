@@ -11,20 +11,17 @@
 <body>
 
     <?php include("includes/navbar.inc.php"); ?>
+    
+    <section class="index-main-up">
 
+        <section class="index-main-up-content">
 
-    <section class="eragonfrc-hakkinda">
-        
-        <h1>MEDYA</h1>
-        
-        <img src="images/ekip_fotografi.jpeg" width="400px">
+            <h1>Team ERAGON</h1>
+            <h2>BİZ GELECEĞİZ!</h2>
 
-        <img src="images/uyeler/uyeler/uye_1.jpg" width="400px">
-        
-        <img src="images/uyeler/uyeler/uye_1.jpg" width="400px">
+        </section>
 
     </section>
-    
 
     <?php include("includes/extrabody.inc.php"); ?>
 </body>
