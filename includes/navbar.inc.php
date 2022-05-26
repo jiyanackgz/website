@@ -26,7 +26,7 @@
         <span class="material-icons">
             email
         </span>
-        <button onclick="navigator.clipboard.writeText('eragonfrc@gmail.com');" style="background: none; border: none; color: #F25D9C; font-size: medium; cursor: pointer;">frceragon@gmail.com</button>
+        <button onclick="navigator.clipboard.writeText('callisterfrc@gmail.com');" style="background: none; border: none; color: #F25D9C; font-size: medium; cursor: pointer;">callisterfrc@gmail.com</button>
         <a class="navbar-up-responsive-willberemoved" href="#" style="margin-left: 20px;">Instagram</a>
         <a class="navbar-up-responsive-willberemoved" href="#">YouTube</a>
         <a class="navbar-up-responsive-willberemoved" href="#">Twitter</a>

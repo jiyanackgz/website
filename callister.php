@@ -26,26 +26,14 @@
     
     <section class="frc-info-main-up">
             
-        <h1 class="inovasyon-info-main-up-writing">Eragon İnovasyon Kampı</h1>
+        <h1 class="inovasyon-info-main-up-writing">Callister Robotics</h1>
         <p class="inovasyon-info-main-up-writing-down">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, laborum. Pariatur veniam quibusdam facilis dicta voluptatum fugit nemo tenetur, nostrum nobis quasi corrupti, possimus eum perspiciatis ducimus aliquam veritatis nesciunt?</p>
-        <button id="inovasyonBasvurFormAc">Başvur</button>
-
-
-        <section id="inovasyonBasvurForm">
-            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfEBrqF9v4m6bsQbrcTnNCQqPevbjQ0c0g1AywMq6Ob3YurYQ/viewform?embedded=true" frameborder="0" marginheight="0" marginwidth="0">Yükleniyor…</iframe><br>
-            <button id="inovasyonBasvurFormKapat">
-                <span class="material-icons">
-                    close
-                </span>
-            </button>
-        </section>
-
+        <button id="inovasyonBasvurFormAc" onclick="window.location.href = 'hakkimizda.php';">Daha Fazla</button>
 
     </section>
 
 
-    
-    
+
 
     <label id="scrollButtonfrc" style="color: white; text-align: center; position: absolute; left: 50%; transform: translateX(-50%); bottom: 0%; cursor: pointer;" style="position: static;">
         Scroll<br>
