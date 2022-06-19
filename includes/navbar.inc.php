@@ -1,12 +1,12 @@
 <?php
 
     $oneHeader = "HAKKIMIZDA";
-    $oneOne = "Hakkımmıda";
+    $oneOne = "Hakkımızda";
     $oneTwo = "Takımımız";
 
     $twoHeader = "FRC";
-    $twoOne = "FRC Nedir?";
-    $twoTwo = "";
+    $twoOne = "FRC Nedir";
+    $twoTwo = "FIRST Vakfı";
 
     $threeHeader = "PROJELER";
     $threeOne = "Sosyal Sorumluluk";
@@ -67,6 +67,7 @@
                 <button class="navbar-dropdown-button"><?php echo $twoHeader; ?></button>
                 <div class="navbar-dropdown-content">
                     <a href="frcnedir.php"><?php echo $twoOne; ?></a>
+                    <a href="firstvakfi.php"><?php echo $twoTwo; ?></a>
                 </div>
             </div>
 
@@ -126,6 +127,7 @@
             <a class="responsive-open-menu-title" href="#"><?php echo $twoHeader; ?></a>
 
             <a class="responsive-open-menu-title-open" href="frcnedir.php"><?php echo $twoOne; ?></a>
+            <a class="responsive-open-menu-title-open" href="firstvakfi.php"><?php echo $twoTwo; ?></a>
             
         </div>
 

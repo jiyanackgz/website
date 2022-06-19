@@ -55,7 +55,7 @@
                     <span class="material-icons">
                         verified
                     </span><br>
-                    Example
+                    İNOVATİFLİK
                 </label>
             </div>
 
@@ -66,7 +66,7 @@
                     <span class="material-icons">
                         language
                     </span><br>
-                    Example
+                    OBJEKTİFLİK
                 </label>
             </div>
 
@@ -77,7 +77,7 @@
                     <span class="material-icons">
                         explore
                     </span><br>
-                    Example
+                    KATILIMCILIK
                 </label>
             </div>
 

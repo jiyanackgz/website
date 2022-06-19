@@ -19,7 +19,7 @@
 
         <section class="sponsorluk-main">
 
-            <h1 style="text-align: center;">Sponsorluk Dosyasına Gitmek İçin <a href="#">Tıklayınız</a></h1>
+            <h1 style="text-align: center;">Sponsorluk Dosyasına Gitmek İçin <a href="documents/callister.pdf">Tıklayınız</a></h1>
 
             <div class="sponsorluk-main-elmas">
                 <a href="http://bahcesehir.k12.tr/tr/"><img src="images/bahcesehir-koleji-logosu.png" alt="Bahçeşehir Koleji Logosu" width="300px" height="auto"></a>

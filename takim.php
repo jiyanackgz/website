@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Takım | EragonFRC</title>
+    <title>Takımımız | EragonFRC</title>
 
     <?php include("includes/extrahead.inc.php"); ?>
 
@@ -21,116 +21,15 @@
 
     <section class="eragonfrc-hakkinda">
         
-        <h1>TAKIMIMIZ</h1>
+        <h1>TAKIMIMIZ</h1><br><br>
 
-        <section class="eragonfrc-hakkinda--ekip-uyeleri">
+        <p>
+            Callister, 19 Mayıs 2022’de kurulmuş, 21 öğrenci ve 3 mentörden oluşan bir takımdır. <br><br>
 
-            <h2>KAPTANLAR</h2>
-            <section class="eragonfrc-hakkinda--ekip-uyeleri--kaptanlar">
+            Biz, keşfetmeye ve öğrenmeye meraklı, STEM+A programlarının gelişmesi ve yayılmasına önem veren aynı zamanda bunun için çalışmalarda bulunan bir takımız. Bunun yanı sıra takımımız çevresinde olanlara ve gündeme duyarlı, sosyal bilinci yüksek, girişken bireylerden oluşur. Takım üyelerimizin hepsi daha önce STEM+A bazlı projeler ve yarışmalarda yer almıştır ayrıca bu yarışmaların bize katkıları, oluşturdukları bilinç ve deneyimler bizi bu tür proje ve etkinliklerde daha çok yer almaya teşvik etmiştir.
+        </p><br><br>
 
-                <div class="card" style="width: 18rem;">
-                    <img class="card-img-top" src="images/uyeler/kaptanlar/kaptan_1.jpg" alt="kaptan_1">
-                    <div class="card-body">
-                        <h5 class="card-title">Kaptan 1</h5>
-                    </div>
-                </div>
-
-                <div class="card" style="width: 18rem;">
-                    <img class="card-img-top" src="images/uyeler/kaptanlar/kaptan_2.jpg" alt="kaptan_2">
-                    <div class="card-body">
-                        <h5 class="card-title">Kaptan 2</h5>
-                    </div>
-                </div>
-
-                <div class="card" style="width: 18rem;">
-                    <img class="card-img-top" src="images/uyeler/kaptanlar/kaptan_3.jpg" alt="kaptan_3">
-                    <div class="card-body">
-                        <h5 class="card-title">Kaptan 3</h5>
-                    </div>
-                </div>
-
-
-            </section>
-            <br>
-            <br>
-
-            <h2>ÜYELER</h2>
-            <section class="eragonfrc-hakkinda--ekip-uyeleri--uyeler">
-
-                <div class="card">
-                    <img class="card-img-top" src="images/uyeler/uyeler/uye_1.jpg" alt="uye_1">
-                    <div class="card-body">
-                        <h5 class="card-title">Üye 1</h5>
-                    </div>
-                </div>
-
-                <div class="card">
-                    <img class="card-img-top" src="images/uyeler/uyeler/uye_2.jpg" alt="uye_2">
-                    <div class="card-body">
-                        <h5 class="card-title">Üye 2</h5>
-                    </div>
-                </div>
-
-                <div class="card">
-                    <img class="card-img-top" src="images/uyeler/uyeler/uye_3.jpg" alt="uye_3">
-                    <div class="card-body">
-                        <h5 class="card-title">Üye 3</h5>
-                    </div>
-                </div>
-
-                <div class="card">
-                    <img class="card-img-top" src="images/uyeler/uyeler/uye_4.jpg" alt="uye_4">
-                    <div class="card-body">
-                        <h5 class="card-title">Üye 4</h5>
-                    </div>
-                </div>
-
-                <div class="card">
-                    <img class="card-img-top" src="images/uyeler/uyeler/uye_5.jpg" alt="uye_5">
-                    <div class="card-body">
-                        <h5 class="card-title">Üye 5</h5>
-                    </div>
-                </div>
-
-                <div class="card">
-                    <img class="card-img-top" src="images/uyeler/uyeler/uye_6.jpg" alt="uye_6">
-                    <div class="card-body">
-                        <h5 class="card-title">Üye 6</h5>
-                    </div>
-                </div>
-
-                <div class="card">
-                    <img class="card-img-top" src="images/uyeler/uyeler/uye_7.jpg" alt="uye_7">
-                    <div class="card-body">
-                        <h5 class="card-title">Üye 7</h5>
-                    </div>
-                </div>
-
-                <div class="card">
-                    <img class="card-img-top" src="images/uyeler/uyeler/uye_8.jpg" alt="uye_8">
-                    <div class="card-body">
-                        <h5 class="card-title">Üye 8</h5>
-                    </div>
-                </div>
-
-                <div class="card">
-                    <img class="card-img-top" src="images/uyeler/uyeler/uye_9.jpg" alt="uye_9">
-                    <div class="card-body">
-                        <h5 class="card-title">Üye 9</h5>
-                    </div>
-                </div>
-
-                <div class="card">
-                    <img class="card-img-top" src="images/uyeler/uyeler/uye_10.jpg" alt="uye_10">
-                    <div class="card-body">
-                        <h5 class="card-title">Üye 10</h5>
-                    </div>
-                </div>
-
-
-            </section>
-
-        </section>
+        <img src="images/ekip_fotografi.jpg" width="100%">
 
     </section>
     
