@@ -1,3 +1,24 @@
+<?php
+
+    $oneHeader = "HAKKIMIZDA";
+    $oneOne = "Hakkımızda";
+    $oneTwo = "Takımımız";
+
+    $twoHeader = "FRC";
+    $twoOne = "FRC Nedir";
+    $twoTwo = "FIRST Vakfı";
+
+    $threeHeader = "PROJELER";
+    $threeOne = "Sosyal Sorumluluk";
+    $threeTwo = "Genel Projeler";
+    
+    $fourHeader = "SPONSORLUK";
+    $fourOne = "Sponsorluk";
+    $fourTwo = "Sponsorlarımız";
+
+
+?>
+
 <header class="navbar-header">
 
     <section class="navbar-header-section-up">
@@ -5,20 +26,17 @@
         <span class="material-icons">
             email
         </span>
-        <button onclick="navigator.clipboard.writeText('eragonfrc@gmail.com');" style="background: none; border: none; color: #F9ED69; font-size: medium; cursor: pointer;">frceragon@gmail.com</button>
-        <a class="navbar-up-responsive-willberemoved" href="#" style="margin-left: 20px;">Instagram</a>
+        <button onclick="navigator.clipboard.writeText('callisterfrc@gmail.com');" style="background: none; border: none; color: #F25D9C; font-size: medium; cursor: pointer;">callisterfrc@gmail.com</button>
+        <a class="navbar-up-responsive-willberemoved" href="www.instagram.com/callisterfrc/" style="margin-left: 20px;">Instagram</a>
         <a class="navbar-up-responsive-willberemoved" href="#">YouTube</a>
-        <a class="navbar-up-responsive-willberemoved" href="#">Twitter</a>
-        <a class="navbar-up-responsive-willberemoved" href="#" style="margin-right: 0px;">LinkedIn</a>
+        <a class="navbar-up-responsive-willberemoved" href="www.linkedin.com/company/callisterfrc/" style="margin-right: 0px;">LinkedIn</a>
 
     </section>
 
     <section id="navbar-header-section-down" class="navbar-header-section-down">
 
         <div class="navbar-header-section-down-img">
-            <img id="eragon-main-nav-img" src="images/eragon_mor_logo_transparent.png" alt="">
-            <img id="eragon-inovasyon-nav-img" src="images/eragon_mor_logo_transparent.png" alt="">
-            <img id="eragon-frc-nav-img" src="images/eragon_mor_logo_transparent.png" alt="">
+            <img id="eragon-main-nav-img" src="images/callister_logo.png" alt="">
         </div>
 
         <div class="navbar-header-section-down-nav">
@@ -37,43 +55,37 @@
             </a>
 
             <div id="navbar-dropdown" class="navbar-dropdown navbar-content-extra-margin">
-                <button class="navbar-dropdown-button">FRC</button>
+                <button class="navbar-dropdown-button"><?php echo $oneHeader; ?></button>
                 <div class="navbar-dropdown-content">
-                    <a href="eragonfrc.php">EragonFRC</a>
-                    <a href="eragonfrchakkinda.php">Hakkımızda</a>
-                    <a href="eragonfrctakim.php">Takımımız</a>
+                    <a href="hakkimizda.php"><?php echo $oneOne ?></a>
+                    <a href="takim.php"><?php echo $oneTwo; ?></a>
                 </div>
             </div>
 
             <div id="navbar-dropdown" class="navbar-dropdown navbar-content-extra-margin">
-                <button class="navbar-dropdown-button">TÜBİTAK</button>
+                <button class="navbar-dropdown-button"><?php echo $twoHeader; ?></button>
                 <div class="navbar-dropdown-content">
-                    <a href="#">Çok Yakında!</a>
+                    <a href="frcnedir.php"><?php echo $twoOne; ?></a>
+                    <a href="firstvakfi.php"><?php echo $twoTwo; ?></a>
                 </div>
             </div>
 
             <div id="navbar-dropdown" class="navbar-dropdown navbar-content-extra-margin">
-                <button class="navbar-dropdown-button">TEKNOFEST</button>
+                <button class="navbar-dropdown-button"><?php echo $threeHeader; ?></button>
                 <div class="navbar-dropdown-content">
-                <a href="#">Çok Yakında!</a>
+                    <a href="sosyalsorumluluk.php"><?php echo $threeOne; ?></a>
+                    <a href="genelprojeler.php"><?php echo $threeTwo; ?></a>
                 </div>
             </div>
 
             <div id="navbar-dropdown" class="navbar-dropdown navbar-content-extra-margin">
-                <button class="navbar-dropdown-button">İNOVASYON</button>
+                <button class="navbar-dropdown-button"><?php echo $fourHeader; ?></button>
                 <div class="navbar-dropdown-content">
                     <!-- <a href="inovasyon.php">İnovasyon</a> -->
-                    <a href="inovasyon.php">İnovasyon</a>
+                    <a href="sponsorluk.php"><?php echo $fourOne; ?></a>
+                    <a href="sponsorlarımız.php"><?php echo $fourTwo; ?></a>
                 </div>
             </div>
-
-            <a href="sponsorluk.php" style="text-decoration: none;" class="navbar-dropdown-button navbar-content-extra-margin navbar-up-responsive-willberemoved">
-                SPONSORLUK
-            </a>
-
-            <a href="medya.php" style="text-decoration: none;" class="navbar-dropdown-button navbar-content-extra-margin navbar-up-responsive-willberemoved">
-                MEDYA
-            </a>
 
         </div>
 
@@ -102,44 +114,37 @@
 
         <div class="responsive-open-menu-main">
 
-            <a class="responsive-open-menu-title" href="#">FRC</a>
+            <a class="responsive-open-menu-title" href="#"><?php echo $oneHeader; ?></a>
 
-            <a class="responsive-open-menu-title-open" href="eragonfrc.php">EragonFRC</a>
-            <a class="responsive-open-menu-title-open" href="eragonfrchakkinda.php">Hakkımızda</a>
-            <a class="responsive-open-menu-title-open" href="eragonfrctakim.php">Takımımız</a>
+            <a class="responsive-open-menu-title-open" href="hakkimizda.php"><?php echo $oneOne ?></a>
+            <a class="responsive-open-menu-title-open" href="takim.php"><?php echo $oneTwo; ?></a>
 
         </div>
 
         <div class="responsive-open-menu-main">
 
-            <a class="responsive-open-menu-title" href="#">TÜBİTAK</a>
+            <a class="responsive-open-menu-title" href="#"><?php echo $twoHeader; ?></a>
+
+            <a class="responsive-open-menu-title-open" href="frcnedir.php"><?php echo $twoOne; ?></a>
+            <a class="responsive-open-menu-title-open" href="firstvakfi.php"><?php echo $twoTwo; ?></a>
             
         </div>
 
         <div class="responsive-open-menu-main">
 
-            <a class="responsive-open-menu-title" href="#">TEKNOFEST</a>
+            <a class="responsive-open-menu-title" href="#"><?php echo $threeHeader; ?></a>
 
+            <a class="responsive-open-menu-title-open" href="sosyalsorumluluk.php"><?php echo $threeOne; ?></a>
+            <a class="responsive-open-menu-title-open" href="genelprojeler.php"><?php echo $threeTwo; ?></a>
         </div>
 
         <div class="responsive-open-menu-main">
 
-            <a class="responsive-open-menu-title" href="#">İNOVASYON</a>
-            <a class="responsive-open-menu-title-open" href="inovasyon.php">İnovasyon</a>
+            <a class="responsive-open-menu-title" href="#"><?php echo $fourHeader; ?></a>
+            <a class="responsive-open-menu-title-open" href="sponsorluk.php"><?php echo $fourOne; ?></a>
+            <a class="responsive-open-menu-title-open" href="sponsorlarımız.php"><?php echo $fourTwo; ?></a>
 
 
-        </div>
-
-        <div class="responsive-open-menu-main">
-                
-                <a class="responsive-open-menu-title" href="medya.html">MEDYA</a>
-
-        </div>
-
-        <div class="responsive-open-menu-main">
-            
-            <a class="responsive-open-menu-title" href="sponsorluk.php">SPONSORLUK</a>
-            
         </div>
     
     </section>

@@ -19,8 +19,8 @@ body {
 }
 
 .navbar-header-section-up {
-    background-color: #B83B5E;
-    color: #F9ED69;
+    background-color: #590D82;
+    color: #F25D9C;
     top: 0;
     left: 0;
     width: 100%;
@@ -31,14 +31,14 @@ body {
 }
 
 .navbar-header-section-up a {
-    color: #F9ED69;
+    color: #F25D9C;
     text-decoration: none;
     margin-left: 10px;
     margin-right: 10px;
 }
 
 .navbar-header-section-down {
-    background-color: #6A2C70;
+    background-color: #0C056D;
     left: 0;
     width: 100%;
     display: -ms-grid;
@@ -80,20 +80,21 @@ body {
 .navbar-dropdown-button {
     background: none;
     border: none;
-    color: #F08A5D;
+    color: #F25D9C;
     font-size: 16px;
     cursor: pointer;
     padding: 2px 16px;
+    transition: 0.2s;
 }
 
 .navbar-dropdown-button:hover {
-    color: #ec7643;
+    color: #d14680;
 }
 
 
 .navbar-dropdown-content {
     position: absolute;
-    background-color: #F9ED69;
+    background-color: #FF7396;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 99;
     display: none;
@@ -109,7 +110,7 @@ body {
 }
 
 .navbar-dropdown-content a:hover {
-    background-color: #ddd25c;
+    background-color: #e75d80;
     text-decoration: none;
     color: black;
 }
@@ -373,12 +374,13 @@ body {
 
 
 .frc-info-main-up {
-    position: absolute;
+    position: relative;
     left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
+    margin-top: 50px;
+    transform: translateX(-50%);
     text-align: center;
     color: #F0F5F9;
+    max-width: 750px;
 }
 
 .frc-main-up img {
@@ -633,7 +635,7 @@ body {
 }
 
 .frc-anasayfa-farkimiz--farklar-fark span {
-    font-size: 100px;
+    font-size: 90px;
     color: #F08A5D;
     margin: 0;
 }
@@ -830,4 +832,8 @@ body {
     .inovasyon-info-main-up-writing-down {
         font-size: 12px;
     }
+}
+
+.sosyalsorumluluk-img {
+    max-width: 750px;
 }
