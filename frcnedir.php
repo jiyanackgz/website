@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FRC Nedir | EragonFRC</title>
+    <title>FRC Nedir | Callister</title>
 
     <?php include("includes/extrahead.inc.php"); ?>
 
@@ -28,7 +28,7 @@
 
         </p><br><br>
 
-        <img src="images/ekip_fotografi.jpg" width="100%">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/2018_FRC_Ontario_Championships.jpg/1200px-2018_FRC_Ontario_Championships.jpg?20180507172907" width="100%">
 
     </section>
     

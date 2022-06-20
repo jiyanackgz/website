@@ -1,7 +1,7 @@
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
 rel="stylesheet">
 
-<link rel="shortcut icon" href="images/eragon_mor_logo_transparent.png">
+<link rel="shortcut icon" href="images/callister_logo.png">
 
 <link rel="stylesheet" href="styles.css">
 

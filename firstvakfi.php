@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FIRST Vakfı | EragonFRC</title>
+    <title>FIRST Vakfı | Callister</title>
 
     <?php include("includes/extrahead.inc.php"); ?>
 
@@ -27,7 +27,7 @@
             FIRST Vakfı 1989’da kurulmuştur. FIRST, gençlere bilim ve teknoloji liderleri, mucitler olmak için ilham verir. Onları; bilimde, teknolojide ve mühendislikte geliştiren programlara yönlendirir. İnovasyon konusunda ilham vermekle birlikte özgüven, iletişim ve liderlik gibi hayat becerilerinin de gelişmesini sağlar.
         </p><br><br>
 
-        <img src="images/ekip_fotografi.jpg" width="100%">
+        <img src="https://upload.wikimedia.org/wikipedia/en/thumb/f/f0/FRC_Logo.svg/1200px-FRC_Logo.svg.png" width="100%">
 
     </section>
     

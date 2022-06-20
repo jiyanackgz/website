@@ -1,10 +1,15 @@
+<?php
+
+    header("Location: index.php");
+
+?>
 <!DOCTYPE html>
 <html lang="tr">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sponsorluk | Callister</title>
+    <title>Sponsorlarımız | Callister</title>
 
     <?php include("includes/extrahead.inc.php"); ?>
 
@@ -71,7 +76,7 @@
             <strong><a href="sponsorlarımız.php">Sponsorlarımızı görmek için buraya tıklayabilirsiniz.</a></strong>
         </p><br>
 
-        <img src="images/callister_logo.png" width="100%">
+        <img src="images/ekip_fotografi.jpg" width="100%">
 
     </section>
     

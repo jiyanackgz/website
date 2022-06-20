@@ -94,7 +94,7 @@ body {
 
 .navbar-dropdown-content {
     position: absolute;
-    background-color: #F9ED69;
+    background-color: #FF7396;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 99;
     display: none;
@@ -110,7 +110,7 @@ body {
 }
 
 .navbar-dropdown-content a:hover {
-    background-color: #ddd25c;
+    background-color: #e75d80;
     text-decoration: none;
     color: black;
 }
@@ -374,12 +374,13 @@ body {
 
 
 .frc-info-main-up {
-    position: absolute;
+    position: relative;
     left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
+    margin-top: 50px;
+    transform: translateX(-50%);
     text-align: center;
     color: #F0F5F9;
+    max-width: 750px;
 }
 
 .frc-main-up img {
@@ -831,4 +832,8 @@ body {
     .inovasyon-info-main-up-writing-down {
         font-size: 12px;
     }
+}
+
+.sosyalsorumluluk-img {
+    max-width: 750px;
 }

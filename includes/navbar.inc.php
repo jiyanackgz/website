@@ -14,7 +14,7 @@
     
     $fourHeader = "SPONSORLUK";
     $fourOne = "Sponsorluk";
-    $fourTwo = "Sponsorluğun Katkıları";
+    $fourTwo = "Sponsorlarımız";
 
 
 ?>
@@ -27,10 +27,9 @@
             email
         </span>
         <button onclick="navigator.clipboard.writeText('callisterfrc@gmail.com');" style="background: none; border: none; color: #F25D9C; font-size: medium; cursor: pointer;">callisterfrc@gmail.com</button>
-        <a class="navbar-up-responsive-willberemoved" href="#" style="margin-left: 20px;">Instagram</a>
+        <a class="navbar-up-responsive-willberemoved" href="www.instagram.com/callisterfrc/" style="margin-left: 20px;">Instagram</a>
         <a class="navbar-up-responsive-willberemoved" href="#">YouTube</a>
-        <a class="navbar-up-responsive-willberemoved" href="#">Twitter</a>
-        <a class="navbar-up-responsive-willberemoved" href="#" style="margin-right: 0px;">LinkedIn</a>
+        <a class="navbar-up-responsive-willberemoved" href="www.linkedin.com/company/callisterfrc/" style="margin-right: 0px;">LinkedIn</a>
 
     </section>
 
@@ -74,8 +73,8 @@
             <div id="navbar-dropdown" class="navbar-dropdown navbar-content-extra-margin">
                 <button class="navbar-dropdown-button"><?php echo $threeHeader; ?></button>
                 <div class="navbar-dropdown-content">
-                    <a href="#"><?php echo $threeOne; ?></a>
-                    <a href="#"><?php echo $threeTwo; ?></a>
+                    <a href="sosyalsorumluluk.php"><?php echo $threeOne; ?></a>
+                    <a href="genelprojeler.php"><?php echo $threeTwo; ?></a>
                 </div>
             </div>
 
@@ -84,7 +83,7 @@
                 <div class="navbar-dropdown-content">
                     <!-- <a href="inovasyon.php">İnovasyon</a> -->
                     <a href="sponsorluk.php"><?php echo $fourOne; ?></a>
-                    <a href="#"><?php echo $fourTwo; ?></a>
+                    <a href="sponsorlarımız.php"><?php echo $fourTwo; ?></a>
                 </div>
             </div>
 
@@ -135,15 +134,15 @@
 
             <a class="responsive-open-menu-title" href="#"><?php echo $threeHeader; ?></a>
 
-            <a class="responsive-open-menu-title-open" href="#"><?php echo $threeOne; ?></a>
-            <a class="responsive-open-menu-title-open" href="#"><?php echo $threeTwo; ?></a>
+            <a class="responsive-open-menu-title-open" href="sosyalsorumluluk.php"><?php echo $threeOne; ?></a>
+            <a class="responsive-open-menu-title-open" href="genelprojeler.php"><?php echo $threeTwo; ?></a>
         </div>
 
         <div class="responsive-open-menu-main">
 
             <a class="responsive-open-menu-title" href="#"><?php echo $fourHeader; ?></a>
             <a class="responsive-open-menu-title-open" href="sponsorluk.php"><?php echo $fourOne; ?></a>
-            <a class="responsive-open-menu-title-open" href="#"><?php echo $fourTwo; ?></a>
+            <a class="responsive-open-menu-title-open" href="sponsorlarımız.php"><?php echo $fourTwo; ?></a>
 
 
         </div>
