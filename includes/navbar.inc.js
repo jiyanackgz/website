@@ -24,9 +24,9 @@ document.getElementById("navRoot").innerHTML = `
             email
         </span>
         <button onclick="navigator.clipboard.writeText('callisterfrc@gmail.com');" style="background: none; border: none; color: #F25D9C; font-size: medium; cursor: pointer;">callisterfrc@gmail.com</button>
-        <a class="navbar-up-responsive-willberemoved" href="www.instagram.com/callisterfrc/" style="margin-left: 20px;">Instagram</a>
-        <a class="navbar-up-responsive-willberemoved" href="#">YouTube</a>
-        <a class="navbar-up-responsive-willberemoved" href="www.linkedin.com/company/callisterfrc/" style="margin-right: 0px;">LinkedIn</a>
+        <a class="navbar-up-responsive-willberemoved" href="https://www.instagram.com/callisterfrc/" style="margin-left: 20px;">Instagram</a>
+        <!-- <a class="navbar-up-responsive-willberemoved" href="#">YouTube</a> -->
+        <a class="navbar-up-responsive-willberemoved" href="https://www.linkedin.com/company/callisterfrc/" style="margin-right: 0px;">LinkedIn</a>
 
     </section>
 
