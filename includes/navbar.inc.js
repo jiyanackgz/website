@@ -148,11 +148,8 @@ document.getElementById("navRoot").innerHTML = `
 
 </section>
 
-
-<script>
-
-
-     Çalışmayan eski sistem (menü açma butonuna tıkladığım zaman menüyü ortaya alıyordu açılan bölümde)*/
+`;
+    /* Çalışmayan eski sistem (menü açma butonuna tıkladığım zaman menüyü ortaya alıyordu açılan bölümde)*/
     /*
     document.getElementById('navbarResponsiveOpen').addEventListener("click", () => {
         if (document.getElementById('navbar-header-section-down').style.bottom != "0px") {
@@ -169,15 +166,10 @@ document.getElementById("navRoot").innerHTML = `
     });
     */
 
-   document.getElementById('navbarResponsiveOpen').addEventListener("click", () => {
-       document.getElementById('responsive-menu').style.display = "block";
-   });
+document.getElementById('navbarResponsiveOpen').addEventListener("click", () => {
+    document.getElementById('responsive-menu').style.display = "block";
+});
 
-    document.getElementById('responsiveMenuCloseButton').addEventListener("click", () => {
-        document.getElementById('responsive-menu').style.display = "none";
-    });
-
-</script>
-
-
-`;
+document.getElementById('responsiveMenuCloseButton').addEventListener("click", () => {
+    document.getElementById('responsive-menu').style.display = "none";
+});
