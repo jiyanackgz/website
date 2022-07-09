@@ -1,23 +1,20 @@
-<?php
+const oneHeader = "HAKKIMIZDA";
+const oneOne = "Hakkımızda";
+const oneTwo = "Takımımız";
 
-    $oneHeader = "HAKKIMIZDA";
-    $oneOne = "Hakkımızda";
-    $oneTwo = "Takımımız";
+const twoHeader = "FRC";
+const twoOne = "FRC Nedir";
+const twoTwo = "FIRST Vakfı";
 
-    $twoHeader = "FRC";
-    $twoOne = "FRC Nedir";
-    $twoTwo = "FIRST Vakfı";
+const threeHeader = "PROJELER";
+const threeOne = "Sosyal Sorumluluk";
+const threeTwo = "Genel Projeler";
 
-    $threeHeader = "PROJELER";
-    $threeOne = "Sosyal Sorumluluk";
-    $threeTwo = "Genel Projeler";
-    
-    $fourHeader = "SPONSORLUK";
-    $fourOne = "Sponsorluk";
-    $fourTwo = "Sponsorlarımız";
+const fourHeader = "SPONSORLUK";
+const fourOne = "Sponsorluk";
+const fourTwo = "Sponsorlarımız";
 
-
-?>
+document.getElementById("navRoot").innerHTML = `
 
 <header class="navbar-header">
 
@@ -48,42 +45,42 @@
                 </span>
             </button>
 
-            <a href="index.php" style="text-decoration: none;" class="navbar-dropdown-button navbar-content-extra-margin navbar-up-responsive-willberemoved">
+            <a href="index.html" style="text-decoration: none;" class="navbar-dropdown-button navbar-content-extra-margin navbar-up-responsive-willberemoved">
                 <span class="material-icons">
                     home
                 </span>
             </a>
 
             <div id="navbar-dropdown" class="navbar-dropdown navbar-content-extra-margin">
-                <button class="navbar-dropdown-button"><?php echo $oneHeader; ?></button>
+                <button class="navbar-dropdown-button">` + oneHeader + `</button>
                 <div class="navbar-dropdown-content">
-                    <a href="hakkimizda.php"><?php echo $oneOne ?></a>
-                    <a href="takim.php"><?php echo $oneTwo; ?></a>
+                    <a href="hakkimizda.html">` + oneOne + `</a>
+                    <a href="takim.html">` + oneTwo + `</a>
                 </div>
             </div>
 
             <div id="navbar-dropdown" class="navbar-dropdown navbar-content-extra-margin">
-                <button class="navbar-dropdown-button"><?php echo $twoHeader; ?></button>
+                <button class="navbar-dropdown-button">` + twoHeader +`</button>
                 <div class="navbar-dropdown-content">
-                    <a href="frcnedir.php"><?php echo $twoOne; ?></a>
-                    <a href="firstvakfi.php"><?php echo $twoTwo; ?></a>
+                    <a href="frcnedir.html">` + twoOne +`</a>
+                    <a href="firstvakfi.html">` + twoTwo + `</a>
                 </div>
             </div>
 
             <div id="navbar-dropdown" class="navbar-dropdown navbar-content-extra-margin">
-                <button class="navbar-dropdown-button"><?php echo $threeHeader; ?></button>
+                <button class="navbar-dropdown-button">` + threeHeader + `</button>
                 <div class="navbar-dropdown-content">
-                    <a href="sosyalsorumluluk.php"><?php echo $threeOne; ?></a>
-                    <a href="genelprojeler.php"><?php echo $threeTwo; ?></a>
+                    <a href="sosyalsorumluluk.html">` + threeOne + `</a>
+                    <a href="genelprojeler.html">` + threeTwo + `</a>
                 </div>
             </div>
 
             <div id="navbar-dropdown" class="navbar-dropdown navbar-content-extra-margin">
-                <button class="navbar-dropdown-button"><?php echo $fourHeader; ?></button>
+                <button class="navbar-dropdown-button">` + fourHeader + `</button>
                 <div class="navbar-dropdown-content">
-                    <!-- <a href="inovasyon.php">İnovasyon</a> -->
-                    <a href="sponsorluk.php"><?php echo $fourOne; ?></a>
-                    <a href="sponsorlarımız.php"><?php echo $fourTwo; ?></a>
+                    <!-- <a href="inovasyon.html">İnovasyon</a> -->
+                    <a href="sponsorluk.html">` + fourOne + `</a>
+                    <a href="sponsorlarımız.html">` + fourTwo + `</a>
                 </div>
             </div>
 
@@ -109,40 +106,40 @@
     
         
         <div class="responsive-open-menu-main">
-            <a class="responsive-open-menu-title" href="index.php">Ana Sayfa</a>
+            <a class="responsive-open-menu-title" href="index.html">Ana Sayfa</a>
         </div>
 
         <div class="responsive-open-menu-main">
 
-            <a class="responsive-open-menu-title" href="#"><?php echo $oneHeader; ?></a>
+            <a class="responsive-open-menu-title" href="#">` + oneHeader + `</a>
 
-            <a class="responsive-open-menu-title-open" href="hakkimizda.php"><?php echo $oneOne ?></a>
-            <a class="responsive-open-menu-title-open" href="takim.php"><?php echo $oneTwo; ?></a>
+            <a class="responsive-open-menu-title-open" href="hakkimizda.html">` + oneOne + `</a>
+            <a class="responsive-open-menu-title-open" href="takim.html">` + oneTwo + `</a>
 
         </div>
 
         <div class="responsive-open-menu-main">
 
-            <a class="responsive-open-menu-title" href="#"><?php echo $twoHeader; ?></a>
+            <a class="responsive-open-menu-title" href="#">` + twoHeader + `</a>
 
-            <a class="responsive-open-menu-title-open" href="frcnedir.php"><?php echo $twoOne; ?></a>
-            <a class="responsive-open-menu-title-open" href="firstvakfi.php"><?php echo $twoTwo; ?></a>
+            <a class="responsive-open-menu-title-open" href="frcnedir.html">` + twoOne + `</a>
+            <a class="responsive-open-menu-title-open" href="firstvakfi.html"><` + twoTwo + `</a>
             
         </div>
 
         <div class="responsive-open-menu-main">
 
-            <a class="responsive-open-menu-title" href="#"><?php echo $threeHeader; ?></a>
+            <a class="responsive-open-menu-title" href="#">` + threeHeader + `</a>
 
-            <a class="responsive-open-menu-title-open" href="sosyalsorumluluk.php"><?php echo $threeOne; ?></a>
-            <a class="responsive-open-menu-title-open" href="genelprojeler.php"><?php echo $threeTwo; ?></a>
+            <a class="responsive-open-menu-title-open" href="sosyalsorumluluk.html">` + threeOne + `</a>
+            <a class="responsive-open-menu-title-open" href="genelprojeler.html">` + threeTwo + `</a>
         </div>
 
         <div class="responsive-open-menu-main">
 
-            <a class="responsive-open-menu-title" href="#"><?php echo $fourHeader; ?></a>
-            <a class="responsive-open-menu-title-open" href="sponsorluk.php"><?php echo $fourOne; ?></a>
-            <a class="responsive-open-menu-title-open" href="sponsorlarımız.php"><?php echo $fourTwo; ?></a>
+            <a class="responsive-open-menu-title" href="#">` + fourHeader + `</a>
+            <a class="responsive-open-menu-title-open" href="sponsorluk.html">` + fourOne + `</a>
+            <a class="responsive-open-menu-title-open" href="sponsorlarımız.html">` + fourTwo + `</a>
 
 
         </div>
@@ -155,7 +152,7 @@
 <script>
 
 
-    /* Çalışmayan eski sistem (menü açma butonuna tıkladığım zaman menüyü ortaya alıyordu açılan bölümde)*/
+     Çalışmayan eski sistem (menü açma butonuna tıkladığım zaman menüyü ortaya alıyordu açılan bölümde)*/
     /*
     document.getElementById('navbarResponsiveOpen').addEventListener("click", () => {
         if (document.getElementById('navbar-header-section-down').style.bottom != "0px") {
@@ -181,3 +178,6 @@
     });
 
 </script>
+
+
+`;
