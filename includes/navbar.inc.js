@@ -102,7 +102,7 @@ document.getElementById("navRoot").innerHTML = `
             </span>
         </button>
     
-        <img src="images/eragon_mor_logo_transparent.png" alt="Eragon Logo" width="100px" height="auto">
+        <img src="images/callister_logo.png" alt="Eragon Logo" width="100px" height="auto">
     
         
         <div class="responsive-open-menu-main">
